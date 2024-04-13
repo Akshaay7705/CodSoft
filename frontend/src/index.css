@@ -1,0 +1,49 @@
+
+@import "@flaticon/flaticon-uicons/css/all/all";
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body{
+  @apply font-inter font-normal text-text bg-white;
+}
+
+.navbar{
+  @apply z-10 fixed top-0 bg-background flex items-center gap-12 w-full px-[5vw] py-5 h-[80px] shadow-lg  ;
+}
+
+.btn-dark{
+  @apply whitespace-nowrap bg-black text-white rounded-full py-2 px-5 text-xl capitalize hover:bg-opacity-80;
+}
+
+.btn-light{
+  @apply btn-dark bg-grey text-black ;
+}
+
+.heading {
+  @apply text-text font-head text-[50px];
+}
+
+.input {
+  @apply w-[30%] m-3 p-2 text-text placeholder:text-text pl-[40px] ease-in-out duration-700 focus:border-primary outline-none border-2 border-primary/60;
+}
+
+.icon{
+  @apply text-text text-xl ;
+}
+
+.btn{
+  @apply bg-tertiary  p-2 text-white font-btn_text rounded-xl ease-in-out duration-[900ms] hover:bg-white hover:text-tertiary border border-tertiary;
+}
+
+.input-icon{
+    @apply absolute left-[50px] top-1/2 -translate-y-1/2;
+}
+.input-box {
+    @apply  rounded-md p-3 bg-none pl-12 text-text placeholder:text-text ease-in-out duration-700 placeholder:capitalize focus:border-primary outline-none border-2 border-primary/60;
+}

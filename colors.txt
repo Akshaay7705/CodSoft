@@ -1,0 +1,5 @@
+main color - #E0E7FF
+second - #CCBFEC
+third - #FFAFBC
+fourth - #8667F2
+fourth lighter - #a18af5
